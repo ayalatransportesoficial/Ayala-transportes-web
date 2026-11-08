@@ -142,6 +142,10 @@
 .ay-lang-switch > summary{display:flex;align-items:center;gap:8px;min-height:36px;padding:7px 12px;border:1px solid rgba(255,255,255,.45);border-radius:22px;background:rgba(255,255,255,.12);color:#fff;font-size:13px;font-weight:750;line-height:1.2;cursor:pointer;list-style:none;user-select:none}
 .ay-lang-switch > summary::-webkit-details-marker{display:none}
 .ay-lang-switch > summary::marker{content:''}
+/* Corrección: evita que los estilos generales del FAQ añadan un + verde y una línea bajo el selector */
+details.ay-lang-switch{border:0;padding:0}
+details.ay-lang-switch > summary::after{content:none;display:none}
+
 .ay-lang-switch > summary:hover{background:rgba(255,255,255,.24)}
 .ay-lang-switch[open] > summary{background:#fff;border-color:#fff;color:#16386e}
 .ay-lang-switch .ay-lang-globe{font-size:17px;line-height:1}
