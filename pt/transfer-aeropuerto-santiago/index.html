@@ -25,20 +25,32 @@
 <link href="/rutas.css" rel="stylesheet"/>
 <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://ayalatransportes.cl/pt/transfer-aeropuerto-santiago/#pagina","url":"https://ayalatransportes.cl/pt/transfer-aeropuerto-santiago/","name":"Transfer ao Aeroporto de Santiago saindo de Viña del Mar | Ayala Transportes","inLanguage":"pt-BR","description":"Traslados privativos ao Aeroporto de Santiago (SCL), saindo de Viña del Mar, Valparaíso e arredores. Solicite orçamento pelo WhatsApp.","isPartOf":{"@id":"https://ayalatransportes.cl/pt/#sitio"},"about":{"@id":"https://ayalatransportes.cl/pt/transfer-aeropuerto-santiago/#servicio"}},{"@type":"BreadcrumbList","@id":"https://ayalatransportes.cl/pt/transfer-aeropuerto-santiago/#migas","itemListElement":[{"@type":"ListItem","position":1,"name":"Início","item":"https://ayalatransportes.cl/pt/"},{"@type":"ListItem","position":2,"name":"Transfer ao Aeroporto de Santiago","item":"https://ayalatransportes.cl/pt/transfer-aeropuerto-santiago/"}]},{"@type":"Service","@id":"https://ayalatransportes.cl/pt/transfer-aeropuerto-santiago/#servicio","name":"Transfer privativo da Região de Valparaíso ao Aeroporto de Santiago","serviceType":"Transporte privativo de passageiros","provider":{"@id":"https://ayalatransportes.cl/#organizacion"},"areaServed":{"@type":"AdministrativeArea","name":"Región de Valparaíso"},"url":"https://ayalatransportes.cl/pt/transfer-aeropuerto-santiago/"}]}</script>
 <link href="https://ayalatransportes.cl/transfer-aeropuerto-santiago/" hreflang="es-CL" rel="alternate"/><link href="https://ayalatransportes.cl/en/transfer-aeropuerto-santiago/" hreflang="en" rel="alternate"/><link href="https://ayalatransportes.cl/pt/transfer-aeropuerto-santiago/" hreflang="pt-BR" rel="alternate"/><link href="https://ayalatransportes.cl/transfer-aeropuerto-santiago/" hreflang="x-default" rel="alternate"/><style>
-/* Language switcher: visible on desktop and mobile */
-.ay-social-topbar-inner{flex-wrap:wrap;row-gap:8px}
-.ay-lang-switch{display:flex;align-items:center;justify-content:center;gap:4px;margin-left:auto;white-space:nowrap}
-.ay-lang-switch a{display:inline-flex;align-items:center;justify-content:center;min-width:32px;min-height:31px;padding:5px 8px;border:1px solid rgba(255,255,255,.45);border-radius:8px;color:#fff;background:rgba(255,255,255,.1);font-size:12px;font-weight:800;text-decoration:none;line-height:1.2}
-.ay-lang-switch a.active,.ay-lang-switch a[aria-current=page]{background:#fff;color:#1a3471;border-color:#fff}
-.ay-lang-switch a:focus-visible{outline:2px solid #fff;outline-offset:2px}
-@media(max-width:760px){.ay-social-topbar-inner{justify-content:center;gap:8px;padding-top:8px;padding-bottom:8px}.ay-lang-switch{width:100%;margin:0 auto;order:3}.ay-lang-switch a{min-width:48px}}
+/* Selector de idioma desplegable | Ayala Transportes */
+.ay-social-topbar-inner{flex-wrap:nowrap;row-gap:8px}
+.ay-lang-switch{display:inline-block;position:relative;flex:0 0 auto;margin-left:auto;white-space:nowrap;z-index:60}
+.ay-lang-switch > summary{display:flex;align-items:center;gap:8px;min-height:36px;padding:7px 12px;border:1px solid rgba(255,255,255,.45);border-radius:22px;background:rgba(255,255,255,.12);color:#fff;font-size:13px;font-weight:750;line-height:1.2;cursor:pointer;list-style:none;user-select:none}
+.ay-lang-switch > summary::-webkit-details-marker{display:none}
+.ay-lang-switch > summary::marker{content:''}
+.ay-lang-switch > summary:hover{background:rgba(255,255,255,.24)}
+.ay-lang-switch[open] > summary{background:#fff;border-color:#fff;color:#16386e}
+.ay-lang-switch .ay-lang-globe{font-size:17px;line-height:1}
+.ay-lang-switch .ay-lang-chevron{font-size:11px;margin-left:2px;transition:transform .18s ease}
+.ay-lang-switch[open] .ay-lang-chevron{transform:rotate(180deg)}
+.ay-lang-switch .ay-lang-menu{position:absolute;top:calc(100% + 8px);right:0;z-index:80;display:grid;gap:3px;min-width:183px;padding:7px;border:1px solid #dce4f2;border-radius:14px;background:#fff;box-shadow:0 14px 34px rgba(6,23,55,.23)}
+.ay-lang-switch .ay-lang-menu a{display:flex;align-items:center;justify-content:space-between;gap:14px;min-height:40px;padding:9px 12px;border-radius:9px;color:#20395f;font-size:13px;font-weight:650;line-height:1.25;text-decoration:none}
+.ay-lang-switch .ay-lang-menu a:hover,.ay-lang-switch .ay-lang-menu a:focus-visible{background:#edf3fe;color:#123b81}
+.ay-lang-switch .ay-lang-menu a[aria-current=page]{background:#e6efff;color:#153f8b;font-weight:800}
+.ay-lang-switch .ay-lang-menu a[aria-current=page]::after{content:'✓';font-weight:900}
+.ay-lang-switch > summary:focus-visible,.ay-lang-switch .ay-lang-menu a:focus-visible{outline:2px solid #81b6ff;outline-offset:2px}
+@media(max-width:760px){.ay-social-topbar-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:nowrap;gap:8px;padding-top:7px;padding-bottom:7px}.ay-social-links{flex:1 1 auto;width:auto;min-width:0;justify-content:flex-start;gap:6px;flex-wrap:nowrap}.ay-lang-switch{margin-left:auto;width:auto;order:0}.ay-lang-switch > summary{min-height:35px;padding:7px 10px;font-size:12px}.ay-lang-switch .ay-lang-menu{min-width:176px}}
+@media(max-width:365px){.ay-lang-switch > summary{gap:5px;padding:7px 8px}.ay-lang-switch .ay-lang-globe{font-size:15px}}
 </style></head>
 <body>
 <div aria-label="Links das redes sociais" class="ay-social-topbar">
 <div class="container ay-social-topbar-inner">
 <span class="ay-social-label">TRASLADOS PRIVATIVOS DA REGIÃO DE VALPARAÍSO</span>
 <div class="ay-social-links"><a aria-label="Abrir Instagram da Ayala Transportes" class="ay-social-link ay-social-instagram" href="https://www.instagram.com/ayala_transportes/" rel="noopener noreferrer" target="_blank"><svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="18"><rect height="18.6" rx="5.4" width="18.6" x="2.7" y="2.7"></rect><circle cx="12" cy="12" r="4"></circle><circle cx="17.6" cy="6.5" fill="currentColor" r=".9" stroke="none"></circle></svg><span>Instagram</span></a><a aria-label="Veja a Ayala Transportes no Google Maps" class="ay-social-link ay-social-maps" href="https://maps.app.goo.gl/axDfNc3RGNikcTmc9" rel="noopener noreferrer" target="_blank" title="Abrir Ayala Transportes no Google Maps"><svg aria-hidden="true" fill="none" height="18" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.9" viewbox="0 0 24 24" width="18"><path d="M20 10c0 5.4-8 11-8 11S4 15.4 4 10a8 8 0 1 1 16 0z"></path><circle cx="12" cy="10" r="2.8"></circle></svg><span>Google Maps</span></a></div>
-<nav aria-label="Escolher idioma" class="ay-lang-switch"><a href="/transfer-aeropuerto-santiago/" lang="es-CL" title="Español">ES</a><a href="/en/transfer-aeropuerto-santiago/" lang="en" title="English">EN</a><a aria-current="page" class="active" href="/pt/transfer-aeropuerto-santiago/" lang="pt-BR" title="Português">PT</a></nav></div>
+<details class="ay-lang-switch"><summary aria-label="Escolher idioma"><span class="ay-lang-globe" aria-hidden="true">🌐</span><span>Idioma</span><span class="ay-lang-chevron" aria-hidden="true">▾</span></summary><nav aria-label="Escolher idioma" class="ay-lang-menu"><a href="/transfer-aeropuerto-santiago/" lang="es-CL">Español</a><a href="/en/transfer-aeropuerto-santiago/" lang="en">English</a><a href="/pt/transfer-aeropuerto-santiago/" lang="pt-BR" aria-current="page">Português</a></nav></details></div>
 </div>
 <header class="nav"><div class="container">
 <a aria-label="Ayala Transportes, voltar ao início" class="brand" href="/pt/">AYALA TRANSPORTES <span>TRASLADOS PRIVATIVOS</span></a>
